@@ -1,7 +1,7 @@
 ---
 name: naleznosci
 description: Przygotowuje raport należności po terminie na wskazany dzień z eksportu faktur polskiego programu, z podziałem na opłacone, po terminie, częściowo opłacone, sporne i niejednoznaczne, z sumą kontrolną i listą rekordów do sprawdzenia. Użyj, gdy ktoś pyta o zaległe faktury, kto nam nie zapłacił, windykację, przeterminowane płatności albo gotówkę z należności.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

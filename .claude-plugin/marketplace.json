@@ -15,6 +15,66 @@
       "description": "Rdzeń: profil firmy, kontrola danych, należności, przypomnienia, odprawa właściciela, pakiet dla biura rachunkowego, plan integracji.",
       "version": "0.1.0",
       "category": "business"
+    },
+    {
+      "name": "moja-firma-dystrybucja",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-dystrybucja"
+      },
+      "description": "Agent zamówień B2B dla polskiej firmy (dystrybucja i hurt B2B). Czyta zamówienie klienta z PDF, dopasowuje pozycje do kartoteki, sprawdza stany, liczy wartość według umowy i limit kredytowy, a na końcu oddaje szkic zamówienia z listą wyjątków do decyzji.",
+      "version": "0.1.0",
+      "category": "business"
+    },
+    {
+      "name": "moja-firma-produkcja",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-produkcja"
+      },
+      "description": "Agent zamówień sieci handlowych dla polskiej firmy (produkcja seryjna). Czyta zamówienie sieci z PDF, dopasowuje linie do kartoteki po EAN i indeksie, sprawdza palety, stany, plan produkcji i kontrakt, liczy ryzyko kar i oddaje szkic potwierdzenia z listą wyjątków.",
+      "version": "0.1.0",
+      "category": "business"
+    },
+    {
+      "name": "moja-firma-produkcja-uslugowa",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-produkcja-uslugowa"
+      },
+      "description": "Agent zapytań ofertowych dla polskiej firmy (firma produkcyjno-usługowa). Czyta zapytanie ofertowe z PDF, znajduje podobne zamknięte projekty z ich prawdziwą marżą, liczy roboczogodziny i sprawdza moce zakładu, a na końcu proponuje, czy wyceniać i na jakich warunkach.",
+      "version": "0.1.0",
+      "category": "business"
+    },
+    {
+      "name": "moja-firma-handel",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-handel"
+      },
+      "description": "Agent rozliczenia kampanii dla polskiej firmy (handel wielokanałowy). Liczy marżę każdej kampanii po zwrotach, prowizjach, płatnościach, wysyłce i reklamie, zestawia ją z ROAS z panelu reklamowego i wskazuje, co wzmocnić, co ograniczyć i co sprawdzić.",
+      "version": "0.1.0",
+      "category": "business"
+    },
+    {
+      "name": "moja-firma-logistyka",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-logistyka"
+      },
+      "description": "Agent zleceń transportowych dla polskiej firmy (usługi logistyczne). Czyta zlecenie transportowe z PDF, sprawdza płatnika, liczy marżę z kosztu trasy i wariant z podwykonawcą, dobiera auto i proponuje decyzję z warunkami.",
+      "version": "0.1.0",
+      "category": "business"
+    },
+    {
+      "name": "moja-firma-serwis",
+      "source": {
+        "source": "github",
+        "repo": "majchrzycki-com/moja-firma-serwis"
+      },
+      "description": "Agent zgłoszeń serwisowych dla polskiej firmy (usługi techniczne i serwisowe). Przypina zgłoszenia do urządzeń i umów SLA, liczy terminy reakcji w godzinach obsługi, scala duplikaty i proponuje dyspozytorowi kolejność obsługi.",
+      "version": "0.1.0",
+      "category": "business"
     }
   ]
 }

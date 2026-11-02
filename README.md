@@ -72,14 +72,14 @@ Rdzeń jest wspólny. Procedury dla konkretnej branży trafiają do osobnych rep
 
 | Repozytorium | Procedura | Poradnik branżowy |
 |---|---|---|
-| `moja-firma-dystrybucja` | agent zamówień B2B | [Dystrybucja i hurt B2B](https://majchrzycki.com/transformacja-agenci-ai/dystrybucja-hurt-b2b?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
-| `moja-firma-produkcja` | agent zamówień sieci handlowych | [Produkcja seryjna](https://majchrzycki.com/transformacja-agenci-ai/produkcja-seryjna?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
-| `moja-firma-produkcja-uslugowa` | agent zapytań ofertowych | [Firma produkcyjno-usługowa](https://majchrzycki.com/transformacja-agenci-ai/firma-produkcyjno-uslugowa?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
-| `moja-firma-handel` | agent rozliczenia kampanii | [Handel wielokanałowy](https://majchrzycki.com/transformacja-agenci-ai/handel-wielokanalowy?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
-| `moja-firma-logistyka` | agent zleceń transportowych | [Usługi logistyczne](https://majchrzycki.com/transformacja-agenci-ai/uslugi-logistyczne?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
-| `moja-firma-serwis` | agent zgłoszeń serwisowych | [Usługi techniczne i serwisowe](https://majchrzycki.com/transformacja-agenci-ai/uslugi-techniczne-i-serwisowe?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-dystrybucja`](https://github.com/majchrzycki-com/moja-firma-dystrybucja) | agent zamówień B2B | [Dystrybucja i hurt B2B](https://majchrzycki.com/transformacja-agenci-ai/dystrybucja-hurt-b2b?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-produkcja`](https://github.com/majchrzycki-com/moja-firma-produkcja) | agent zamówień sieci handlowych | [Produkcja seryjna](https://majchrzycki.com/transformacja-agenci-ai/produkcja-seryjna?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-produkcja-uslugowa`](https://github.com/majchrzycki-com/moja-firma-produkcja-uslugowa) | agent zapytań ofertowych | [Firma produkcyjno-usługowa](https://majchrzycki.com/transformacja-agenci-ai/firma-produkcyjno-uslugowa?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-handel`](https://github.com/majchrzycki-com/moja-firma-handel) | agent rozliczenia kampanii | [Handel wielokanałowy](https://majchrzycki.com/transformacja-agenci-ai/handel-wielokanalowy?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-logistyka`](https://github.com/majchrzycki-com/moja-firma-logistyka) | agent zleceń transportowych | [Usługi logistyczne](https://majchrzycki.com/transformacja-agenci-ai/uslugi-logistyczne?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
+| [`moja-firma-serwis`](https://github.com/majchrzycki-com/moja-firma-serwis) | agent zgłoszeń serwisowych | [Usługi techniczne i serwisowe](https://majchrzycki.com/transformacja-agenci-ai/uslugi-techniczne-i-serwisowe?utm_source=github&utm_medium=referral&utm_campaign=moja-firma#pobierz) |
 
-Pakiety są w przygotowaniu.
+Każdy pakiet instalujesz z tego samego marketplace, np. `/plugin install moja-firma-handel@moja-firma`.
 
 ## Bezpieczeństwo
 
@@ -89,7 +89,7 @@ Procedury nie są poradą podatkową, prawną ani kadrową. Wynik sprawdza osoba
 
 ## Licencja
 
-Kod (skrypty, manifesty) na licencji [MIT](LICENSE). Treść procedur w katalogu `skills/` na licencji [CC BY 4.0](LICENSE-CONTENT.md): możesz je kopiować i przerabiać, także komercyjnie, z podaniem źródła.
+Całość, procedury i skrypty, na licencji [MIT](LICENSE). Możesz je kopiować, przerabiać i używać komercyjnie, pod warunkiem zachowania informacji o autorze i licencji.
 
 Autor: [Krzysztof Majchrzycki](https://majchrzycki.com/o-mnie?utm_source=github&utm_medium=referral&utm_campaign=moja-firma), wdrożenia AI w polskich firmach.
 
@@ -97,4 +97,4 @@ Autor: [Krzysztof Majchrzycki](https://majchrzycki.com/o-mnie?utm_source=github&
 
 ## English
 
-**moja-firma** ("my company") is an open set of AI procedures for Polish small and medium businesses, written in the [Agent Skills](https://agentskills.io/specification) `SKILL.md` format so the same files work in Claude, ChatGPT/Codex, Microsoft 365 Copilot, Gemini and OpenClaw. Procedures are in Polish and follow Polish practice: PLN, external accounting offices, exports from local invoicing software. Every procedure prepares a decision and never sends messages, changes records or makes payments. Code is MIT, procedure texts are CC BY 4.0.
+**moja-firma** ("my company") is an open set of AI procedures for Polish small and medium businesses, written in the [Agent Skills](https://agentskills.io/specification) `SKILL.md` format so the same files work in Claude, ChatGPT/Codex, Microsoft 365 Copilot, Gemini and OpenClaw. Procedures are in Polish and follow Polish practice: PLN, external accounting offices, exports from local invoicing software. Every procedure prepares a decision and never sends messages, changes records or makes payments. Everything is MIT-licensed.

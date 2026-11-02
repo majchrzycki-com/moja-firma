@@ -1,7 +1,7 @@
 ---
 name: profil-firmy
 description: Zbiera profil polskiej małej lub średniej firmy (branża, waluta, programy, biuro rachunkowe, osoby zatwierdzające, granice pracy agenta) i zapisuje go jako plik moja-firma.md, z którego korzystają pozostałe procedury. Użyj na początku pracy z firmą, gdy ktoś pisze „skonfiguruj”, „zacznijmy”, „opisz moją firmę” albo gdy brakuje kontekstu firmy do innego zadania.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

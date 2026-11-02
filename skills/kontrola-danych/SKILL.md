@@ -1,7 +1,7 @@
 ---
 name: kontrola-danych
 description: Sprawdza eksport CSV lub XLSX z polskiego programu (faktury, magazyn, CRM, bank), zanim agent zacznie na nim liczyć — kolumny, typy, daty, kwoty, duplikaty, korekty i okres — i spisuje kontrakt danych. Użyj przed pierwszym raportem z nowego eksportu, gdy liczby nie zgadzają się ze źródłem albo gdy użytkownik pyta, czy plik nadaje się do analizy.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

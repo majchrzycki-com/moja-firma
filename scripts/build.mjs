@@ -66,14 +66,14 @@ for (const dir of (await readdir(SKILLS, { withFileTypes: true })).filter((d) =>
 
   const title = (body.match(/^#\s+(.+)$/m) || [, dir.name])[1];
   const flat = [
-    `# ${title} (moja-firma ${plugin.version})`,
+    `# ${title} (${plugin.name} ${plugin.version})`,
     "",
     `Kiedy używać: ${fm.description}`,
     "",
     body.replace(/^#\s+.+\r?\n/, "").trim(),
     "",
     "---",
-    `Procedura „${fm.name}” z paczki moja-firma ${plugin.version} (${plugin.repository}), licencja CC BY 4.0.`,
+    `Procedura „${fm.name}” z paczki ${plugin.name} ${plugin.version} (${plugin.repository}), licencja MIT.`,
     "Jeśli nie masz pliku moja-firma.md, poproś użytkownika o profil firmy albo zapytaj o brakujące informacje.",
     "",
   ].join("\n");

@@ -1,7 +1,7 @@
 ---
 name: plan-integracji
 description: Ocenia, czy polski program do faktur, księgowości, magazynu lub CRM (np. inFakt, wFirma, Fakturownia) da się podłączyć do agenta AI, na podstawie oficjalnej dokumentacji producenta, i przygotowuje plan integracji do oceny przez informatyka — autoryzacja, minimalne uprawnienia, środowisko testowe, pola, ograniczenia, wyłączenie. Użyj, gdy ktoś pyta o konektor, API, MCP, „podłącz mój program” albo synchronizację danych z polskim systemem.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

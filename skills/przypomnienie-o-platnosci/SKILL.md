@@ -1,7 +1,7 @@
 ---
 name: przypomnienie-o-platnosci
 description: Szkicuje po polsku uprzejme przypomnienie o płatności dla wskazanej faktury, wyłącznie na potwierdzonych danych, w dwóch wariantach tonu, z listą rzeczy do sprawdzenia przed wysłaniem. Nigdy nie wysyła. Użyj, gdy ktoś prosi o maila do klienta w sprawie zaległej faktury, monit, przypomnienie albo upomnienie płatnicze.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

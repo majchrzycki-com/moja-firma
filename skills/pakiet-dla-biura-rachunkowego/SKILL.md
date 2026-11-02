@@ -1,7 +1,7 @@
 ---
 name: pakiet-dla-biura-rachunkowego
 description: Porządkuje dokumenty i eksporty miesiąca w pakiet dla księgowej lub biura rachunkowego w Polsce — spis dokumentów, braki, rozbieżności, pytania do księgowej i lista spraw do decyzji — bez wyliczania podatków, składek ani wynagrodzeń. Użyj pod koniec miesiąca, gdy ktoś pisze „zamknięcie miesiąca”, „co wysłać do księgowej”, „przygotuj dokumenty dla biura” albo pyta o podatki i ZUS w kontekście przekazania dokumentów.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty

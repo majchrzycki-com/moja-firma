@@ -1,7 +1,7 @@
 ---
 name: odprawa-wlasciciela
 description: Przygotowuje jednostronicową poniedziałkową odprawę właściciela polskiej firmy z kilku eksportów (sprzedaż, należności, szanse w CRM, kalendarz): sprzedaż netto, wpływy, należności po terminie, szanse do telefonu i trzy decyzje na tydzień, z datą odświeżenia każdego źródła. Użyj, gdy ktoś prosi o podsumowanie tygodnia, raport dla zarządu, stan firmy, „co się dzieje w firmie” albo odprawę.
-license: CC-BY-4.0
+license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
   zrodlo: https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty
