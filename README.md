@@ -1,6 +1,6 @@
 # moja-firma
 
-**Otwarte procedury AI dla polskiej małej i średniej firmy.** Jeden zestaw instrukcji w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`), który działa w Claude, ChatGPT i Codex, Microsoft 365 Copilot, Gemini oraz OpenClaw.
+**Otwarte procedury AI dla polskiej małej i średniej firmy.** Jeden zestaw instrukcji w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`), który działa w Anthropic Claude, OpenAI ChatGPT i OpenAI Codex, Microsoft 365 Copilot, Google Gemini oraz OpenClaw.
 
 Każda procedura **przygotowuje decyzję, a nie ją podejmuje**: nie wysyła wiadomości, nie zmienia rekordów, nie zleca płatności, pokazuje źródło każdej liczby i nazywa brak danych wprost. Procedury są pisane pod polski obieg dokumentów: PLN, biuro rachunkowe, eksport z polskiego programu do faktur zamiast gotowego konektora.
 
@@ -24,7 +24,7 @@ Zacznij od `profil-firmy`, potem `kontrola-danych` na jednym eksporcie, potem je
 
 Nazwy menu zmieniają się często. Jeśli wyglądają inaczej, sprawdź aktualną dokumentację narzędzia.
 
-### Claude Code
+### Anthropic Claude Code
 
 ```text
 /plugin marketplace add majchrzycki-com/moja-firma
@@ -33,21 +33,21 @@ Nazwy menu zmieniają się często. Jeśli wyglądają inaczej, sprawdź aktualn
 
 Procedury wywołasz jako `/moja-firma:naleznosci` albo zwykłym zdaniem, np. „przygotuj raport należności na koniec miesiąca”.
 
-### Claude w przeglądarce i aplikacji (Cowork)
+### Anthropic Claude w przeglądarce i aplikacji (Cowork)
 
-Spakuj katalog wybranej procedury, np. `skills/naleznosci/`, do pliku ZIP i dodaj go jako umiejętność w ustawieniach Claude. Więcej o pluginach i skillach Claude: [Claude dla firm](https://majchrzycki.com/blog/co-to-jest-claude-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
+Spakuj katalog wybranej procedury, np. `skills/naleznosci/`, do pliku ZIP i dodaj go jako umiejętność w ustawieniach Anthropic Claude. Więcej o pluginach i skillach Anthropic Claude: [Anthropic Claude dla firm](https://majchrzycki.com/blog/co-to-jest-claude-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
 
-### ChatGPT i Codex
+### OpenAI ChatGPT i OpenAI Codex
 
-W Codex skopiuj katalogi z `skills/` do katalogu skilli Codex. W ChatGPT wklej plik z `dist/instrukcje/` do instrukcji projektu albo GPT. Porównanie pluginów Claude, ChatGPT, Codex i Copilot: [pluginy agentów AI](https://majchrzycki.com/blog/pluginy-agentow-claude-chatgpt-codex-copilot?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
+W OpenAI Codex skopiuj katalogi z `skills/` do katalogu skilli OpenAI Codex. W OpenAI ChatGPT wklej plik z `dist/instrukcje/` do instrukcji projektu albo GPT. Porównanie pluginów Anthropic Claude, OpenAI ChatGPT, OpenAI Codex i Microsoft 365 Copilot: [pluginy agentów AI](https://majchrzycki.com/blog/pluginy-agentow-claude-chatgpt-codex-copilot?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
 
 ### Microsoft 365 Copilot
 
-W Copilot Cowork: **Dostosuj → Umiejętności → Dodaj** i zaimportuj `SKILL.md`. Opis krok po kroku: [umiejętności SKILL.md w Copilot Cowork](https://majchrzycki.com/blog/microsoft-copilot-cowork-umiejetnosci-skill-md?utm_source=github&utm_medium=referral&utm_campaign=moja-firma). Dla agenta w Agent Builderze wklej plik z `dist/instrukcje/` do pola instrukcji.
+W Microsoft 365 Copilot Cowork: **Dostosuj → Umiejętności → Dodaj** i zaimportuj `SKILL.md`. Opis krok po kroku: [umiejętności SKILL.md w Microsoft 365 Copilot Cowork](https://majchrzycki.com/blog/microsoft-copilot-cowork-umiejetnosci-skill-md?utm_source=github&utm_medium=referral&utm_campaign=moja-firma). Dla agenta w Agent Builderze Microsoft 365 Copilot wklej plik z `dist/instrukcje/` do pola instrukcji.
 
-### Gemini
+### Google Gemini
 
-Utwórz Gem i wklej plik z `dist/instrukcje/` do instrukcji. Eksporty dodaj jako pliki albo z Dysku. Więcej: [Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
+Utwórz Gem w Google Gemini i wklej plik z `dist/instrukcje/` do instrukcji. Eksporty dodaj jako pliki albo z Dysku. Więcej: [Google Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
 
 ### OpenClaw
 
@@ -61,8 +61,8 @@ node scripts/build.mjs
 
 Skrypt sprawdza każdy `SKILL.md` (nazwa, opis, zgodność z katalogiem) i tworzy `dist/`:
 
-- `dist/skills/` — procedury bez zmian, dla Claude, Codex, OpenClaw i Copilot Cowork,
-- `dist/instrukcje/` — procedura jako jeden tekst do wklejenia w agencie Microsoft 365 Copilot, Gemie lub ChatGPT.
+- `dist/skills/` — procedury bez zmian, dla Anthropic Claude, OpenAI Codex, OpenClaw i Microsoft 365 Copilot Cowork,
+- `dist/instrukcje/` — procedura jako jeden tekst do wklejenia w agencie Microsoft 365 Copilot, Gemie Google Gemini lub projekcie OpenAI ChatGPT.
 
 Gotowe paczki są też dołączane do każdego wydania w zakładce Releases.
 
@@ -97,4 +97,4 @@ Autor: [Krzysztof Majchrzycki](https://majchrzycki.com/o-mnie?utm_source=github&
 
 ## English
 
-**moja-firma** ("my company") is an open set of AI procedures for Polish small and medium businesses, written in the [Agent Skills](https://agentskills.io/specification) `SKILL.md` format so the same files work in Claude, ChatGPT/Codex, Microsoft 365 Copilot, Gemini and OpenClaw. Procedures are in Polish and follow Polish practice: PLN, external accounting offices, exports from local invoicing software. Every procedure prepares a decision and never sends messages, changes records or makes payments. Everything is MIT-licensed.
+**moja-firma** ("my company") is an open set of AI procedures for Polish small and medium businesses, written in the [Agent Skills](https://agentskills.io/specification) `SKILL.md` format so the same files work in Anthropic Claude, OpenAI ChatGPT/OpenAI Codex, Microsoft 365 Copilot, Google Gemini and OpenClaw. Procedures are in Polish and follow Polish practice: PLN, external accounting offices, exports from local invoicing software. Every procedure prepares a decision and never sends messages, changes records or makes payments. Everything is MIT-licensed.
