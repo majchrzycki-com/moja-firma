@@ -47,7 +47,7 @@ W Microsoft 365 Copilot Cowork: **Dostosuj → Umiejętności → Dodaj** i zaim
 
 ### Google Gemini
 
-Utwórz Gem w Google Gemini i wklej plik z `dist/instrukcje/` do instrukcji. Eksporty dodaj jako pliki albo z Dysku. Więcej: [Google Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
+W Google Gemini otwórz **Customize → Skills → Create → Upload** i wskaż katalog procedury, np. `skills/naleznosci/`, albo plik ZIP z `SKILL.md` w głównym katalogu. Pliki CSV i XLSX dodasz jako pliki referencyjne tylko razem ze skillem. Google zastępuje Gemy skillami, więc nowego agenta nie buduj już jako Gema. Opis i harmonogram zmiany: [pomoc Google Gemini](https://support.google.com/gemini/answer/17094296). Więcej: [Google Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
 
 ### OpenClaw
 
@@ -61,8 +61,8 @@ node scripts/build.mjs
 
 Skrypt sprawdza każdy `SKILL.md` (nazwa, opis, zgodność z katalogiem) i tworzy `dist/`:
 
-- `dist/skills/` — procedury bez zmian, dla Anthropic Claude, OpenAI Codex, OpenClaw i Microsoft 365 Copilot Cowork,
-- `dist/instrukcje/` — procedura jako jeden tekst do wklejenia w agencie Microsoft 365 Copilot, Gemie Google Gemini lub projekcie OpenAI ChatGPT.
+- `dist/skills/` — procedury bez zmian, dla Anthropic Claude, OpenAI Codex, Google Gemini, OpenClaw i Microsoft 365 Copilot Cowork,
+- `dist/instrukcje/` — procedura jako jeden tekst do wklejenia w agencie Microsoft 365 Copilot Agent Builder albo w projekcie lub GPT w OpenAI ChatGPT.
 
 Gotowe paczki są też dołączane do każdego wydania w zakładce Releases.
 
