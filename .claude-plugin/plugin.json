@@ -1,0 +1,13 @@
+{
+  "name": "moja-firma",
+  "version": "0.1.0",
+  "description": "Procedury AI dla polskiej małej i średniej firmy: profil firmy, kontrola eksportu danych, należności, przypomnienia o płatności, odprawa właściciela, pakiet dla biura rachunkowego i plan integracji z polskim programem do faktur. Agent przygotowuje decyzję, człowiek ją podejmuje.",
+  "author": {
+    "name": "Krzysztof Majchrzycki",
+    "url": "https://majchrzycki.com"
+  },
+  "homepage": "https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty",
+  "repository": "https://github.com/majchrzycki-com/moja-firma",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["msp", "polska", "male-firmy", "naleznosci", "biuro-rachunkowe", "agent-skills", "skill-md"]
+}

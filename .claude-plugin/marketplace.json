@@ -1,0 +1,20 @@
+{
+  "name": "moja-firma",
+  "owner": {
+    "name": "Krzysztof Majchrzycki",
+    "url": "https://majchrzycki.com"
+  },
+  "metadata": {
+    "description": "Procedury AI dla polskiego MŚP: rdzeń moja-firma i pakiety branżowe moja-firma-<branża>.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "moja-firma",
+      "source": "./",
+      "description": "Rdzeń: profil firmy, kontrola danych, należności, przypomnienia, odprawa właściciela, pakiet dla biura rachunkowego, plan integracji.",
+      "version": "0.1.0",
+      "category": "business"
+    }
+  ]
+}
