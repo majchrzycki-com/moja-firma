@@ -18,7 +18,7 @@ Każda procedura **przygotowuje decyzję, a nie ją podejmuje**: nie wysyła wia
 | [`pakiet-dla-biura-rachunkowego`](skills/pakiet-dla-biura-rachunkowego/SKILL.md) | Spis dokumentów miesiąca, braki, rozbieżności i pytania do księgowej. Bez wyliczania podatków. | [Czego nie lokalizować tłumaczeniem](https://majchrzycki.com/blog/claude-small-business-plugin-skille-dla-polskiego-msp?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=pakiet-dla-biura-rachunkowego) |
 | [`plan-integracji`](skills/plan-integracji/SKILL.md) | Plan podłączenia polskiego programu (np. inFakt, wFirma, Fakturownia) na podstawie oficjalnej dokumentacji, do oceny przez informatyka. | [Krok 5: polski program](https://majchrzycki.com/blog/claude-small-business-polska-firma-inicjacja-prompty?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=plan-integracji) |
 
-Zacznij od `profil-firmy`, potem `kontrola-danych` na jednym eksporcie, potem jedna procedura z wynikiem, który da się sprawdzić z programem źródłowym.
+Zacznij od `profil-firmy`, potem `kontrola-danych` na jednym eksporcie, potem jedna procedura z wynikiem, który da się sprawdzić z programem źródłowym. Profil firmy możesz też wypełnić samodzielnie: [szablon `moja-firma.md`](szablony/moja-firma.md).
 
 ## Instalacja
 
