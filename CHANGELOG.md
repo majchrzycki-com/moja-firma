@@ -1,6 +1,6 @@
 # Zmiany
 
-## 0.1.0 — w przygotowaniu
+## 0.1.0 (11.11.2026)
 
 - Pierwsze siedem procedur: `profil-firmy`, `kontrola-danych`, `naleznosci`, `przypomnienie-o-platnosci`, `odprawa-wlasciciela`, `pakiet-dla-biura-rachunkowego`, `plan-integracji`.
 - Manifest pluginu i marketplace dla Anthropic Claude Code.

@@ -47,7 +47,7 @@ W Microsoft 365 Copilot Cowork: **Dostosuj → Umiejętności → Dodaj** i zaim
 
 ### Google Gemini
 
-W Google Gemini otwórz **Customize → Skills → Create → Upload** i wskaż katalog procedury, np. `skills/naleznosci/`, albo plik ZIP z `SKILL.md` w głównym katalogu. Pliki CSV i XLSX dodasz jako pliki referencyjne tylko razem ze skillem. Google zastępuje Gemy skillami, więc nowego agenta nie buduj już jako Gema. Opis i harmonogram zmiany: [pomoc Google Gemini](https://support.google.com/gemini/answer/17094296). Więcej: [Google Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
+W Google Gemini otwórz **Customize → Skills → Create → Upload** i wskaż katalog procedury, np. `skills/naleznosci/`, albo plik ZIP z `SKILL.md` w głównym katalogu. Paczkę ZIP z wydania najpierw rozpakuj i wskaż katalog procedury. Pliki CSV i XLSX dodasz jako pliki referencyjne tylko razem ze skillem. Google zastępuje Gemy skillami, więc nowego agenta nie buduj już jako Gema. Opis i harmonogram zmiany: [pomoc Google Gemini](https://support.google.com/gemini/answer/17094296). Więcej: [Google Gemini dla firm](https://majchrzycki.com/blog/co-to-jest-google-gemini-poradnik-dla-firm?utm_source=github&utm_medium=referral&utm_campaign=moja-firma).
 
 ### OpenClaw
 
